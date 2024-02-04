@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Hello LOVE, it's been a long time since we first met ...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +15,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GrigorijSchleifer"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="fe374b2a-af31-404f-b4ff-21e4e1281e08" />
+        <option name="url" value="https://github.com/GrigorijSchleifer/JavaWars.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -65,11 +74,47 @@
       <updated>1706815734034</updated>
       <workItem from="1706815735055" duration="310000" />
       <workItem from="1706816103241" duration="3799000" />
-      <workItem from="1707028433816" duration="1473000" />
+      <workItem from="1707028433816" duration="2401000" />
     </task>
+    <task id="LOCAL-00001" summary="Hello LOVE, it's been a long time since we first met ...">
+      <option name="closed" value="true" />
+      <created>1707034691473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707034691473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hello LOVE, it's been a long time since we first met ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello LOVE, it's been a long time since we first met ..." />
   </component>
 </project>

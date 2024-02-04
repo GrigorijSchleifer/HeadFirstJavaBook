@@ -8,3 +8,11 @@ class HelloWorld {
         System.out.println("Hello, Grigorij!");
     }
 }
+
+public class HolloWorldTwo {
+    public static void main(String[] args) {
+        System.out.println("Drunk and voodoo magic");
+        char a = 'a';
+        String name = "Grigorij";
+    }
+}
