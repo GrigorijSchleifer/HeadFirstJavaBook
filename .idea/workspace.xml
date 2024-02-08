@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Understanding static">
-      <change afterPath="$PROJECT_DIR$/src/Drugs.java" afterDir="false" />
+    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Barking dog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
     </list>
@@ -90,7 +89,7 @@
       <workItem from="1707202094035" duration="114000" />
       <workItem from="1707202218370" duration="78000" />
       <workItem from="1707202321875" duration="46000" />
-      <workItem from="1707202377295" duration="3970000" />
+      <workItem from="1707202377295" duration="4535000" />
     </task>
     <task id="LOCAL-00001" summary="Hello LOVE, it's been a long time since we first met ...">
       <option name="closed" value="true" />
@@ -116,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707163643952</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Barking dog">
+      <option name="closed" value="true" />
+      <created>1707387450199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707387450200</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +156,8 @@
     <MESSAGE value="Hello LOVE, it's been a long time since we first met ..." />
     <MESSAGE value="Some Java magic ... I like it so much!" />
     <MESSAGE value="Understanding static" />
-    <option name="LAST_COMMIT_MESSAGE" value="Understanding static" />
+    <MESSAGE value="Barking dog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Barking dog" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
