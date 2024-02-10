@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Still confusing static and scope issues">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday">
+      <change beforePath="$PROJECT_DIR$/src/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +92,7 @@
       <workItem from="1707202094035" duration="114000" />
       <workItem from="1707202218370" duration="78000" />
       <workItem from="1707202321875" duration="46000" />
-      <workItem from="1707202377295" duration="8056000" />
+      <workItem from="1707202377295" duration="8115000" />
     </task>
     <task id="LOCAL-00001" summary="Hello LOVE, it's been a long time since we first met ...">
       <option name="closed" value="true" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707451648199</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Happy birthday">
+      <option name="closed" value="true" />
+      <created>1707566319785</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707566319785</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +191,8 @@
     <MESSAGE value="Barking dog" />
     <MESSAGE value="Does it workk?" />
     <MESSAGE value="Still confusing static and scope issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Still confusing static and scope issues" />
+    <MESSAGE value="Happy birthday" />
+    <option name="LAST_COMMIT_MESSAGE" value="Happy birthday" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
