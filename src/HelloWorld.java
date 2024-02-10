@@ -17,5 +17,5 @@ public class HelloWorld {
 
         System.out.printf("Parsed double to integer: %d and just double %f", number_int_parsed, number_double);
     }
-    // not sure there is no green check in github
+    // not sure there is no green check in github and what did the rebase
 }
