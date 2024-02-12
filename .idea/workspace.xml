@@ -179,7 +179,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707567003525</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Hello default branch">
+      <option name="closed" value="true" />
+      <created>1707678622034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707678622034</updated>
+    </task>
+    <task id="LOCAL-00011" summary="class files deleted">
+      <option name="closed" value="true" />
+      <created>1707732317509</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707732317509</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +240,9 @@
     <MESSAGE value="Still confusing static and scope issues" />
     <MESSAGE value="Happy birthday TEST" />
     <MESSAGE value="Happy birthday" />
-    <option name="LAST_COMMIT_MESSAGE" value="Happy birthday" />
+    <MESSAGE value="Hello default branch" />
+    <MESSAGE value="class files deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="class files deleted" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
