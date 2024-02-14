@@ -4,6 +4,7 @@ public class Drugs {
 
     public void infusion() {
         System.out.printf("%s has a concentration of %s micrograms \n", drug_name, concentration);
+        System.out.println("No upstream branch");
         System.out.printf("%d is received by the getTestInteger method \n", HelloWorld.getTest_integer());
     }
 }
