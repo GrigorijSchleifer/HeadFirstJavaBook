@@ -79,7 +79,7 @@ public class SharpenYourPens {
         while(i > 1) {
             i = i - 1;
             if (i < 3){
-                System.out.printf("small %d \n", i);
+                System.out.printf("small %d \n", i); // not sure why
             }
         }
     }
