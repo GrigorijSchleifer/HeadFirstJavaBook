@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday TEST">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,8 @@
       <workItem from="1708055524662" duration="234000" />
       <workItem from="1708056155640" duration="462000" />
       <workItem from="1708152056272" duration="6582000" />
-      <workItem from="1708171887454" duration="26000" />
+      <workItem from="1708171887454" duration="138000" />
+      <workItem from="1708172196652" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="Hello LOVE, it's been a long time since we first met ...">
       <option name="closed" value="true" />
@@ -222,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708161438718</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="README added for the repo">
+      <option name="closed" value="true" />
+      <created>1708171935184</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1708171935184</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +304,8 @@
     <MESSAGE value="class files deleted" />
     <MESSAGE value="bottle game and first sharpen you pencils" />
     <MESSAGE value="Good morning HUMA, phrasomat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Good morning HUMA, phrasomat" />
+    <MESSAGE value="README added for the repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="README added for the repo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
