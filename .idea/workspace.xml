@@ -70,7 +70,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+<<<<<<< HEAD
     "git-widget-placeholder": "fifth__branch",
+=======
+    "git-widget-placeholder": "sixth__weird__branch",
+>>>>>>> sixth_weird_branch
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -78,7 +82,11 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/grigorijschleifer/IdeaProjects/first_project/src/Main.java",
+<<<<<<< HEAD
     "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+=======
+    "settings.editor.selected.configurable": "preferences.keymap",
+>>>>>>> sixth_weird_branch
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
