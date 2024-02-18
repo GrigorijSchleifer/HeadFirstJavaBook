@@ -5,6 +5,6 @@ public class HeadFirstJava {
         SharpenYourPens syp = new SharpenYourPens();
         variables vars = new variables();
 
-        vars.casting_variables();
+        // vars.casting_variables();
     }
 }
