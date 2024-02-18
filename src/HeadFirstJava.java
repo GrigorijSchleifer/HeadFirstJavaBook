@@ -5,6 +5,6 @@ public class HeadFirstJava {
         SharpenYourPens syp = new SharpenYourPens();
         variables vars = new variables();
 
-        System.out.println("Deleted");
+        // System.out.println("Deleted");
     }
 }
