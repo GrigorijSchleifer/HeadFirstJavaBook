@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday TEST">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday TEST" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,6 +58,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
@@ -79,6 +78,35 @@
     "onboarding.tips.debug.path": "/Users/grigorijschleifer/IdeaProjects/first_project/src/Main.java",
     "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.HeadFirstJava.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+    &quot;git-widget-placeholder&quot;: &quot;fifth__branch&quot;,
+=======
+    &quot;git-widget-placeholder&quot;: &quot;sixth__weird__branch&quot;,
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; sixth_weird_branch
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/grigorijschleifer/IdeaProjects/first_project/src/Main.java&quot;,
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; sixth_weird_branch
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> fifth_branch
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -117,6 +145,8 @@
       <workItem from="1708152056272" duration="6582000" />
       <workItem from="1708171887454" duration="138000" />
       <workItem from="1708172196652" duration="941000" />
+      <workItem from="1708204637989" duration="41000" />
+      <workItem from="1708234540932" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="Hello LOVE, it's been a long time since we first met ...">
       <option name="closed" value="true" />
