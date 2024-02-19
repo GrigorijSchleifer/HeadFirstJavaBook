@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 class variables {
 
 
@@ -17,5 +19,12 @@ class variables {
         byte cc = 30;
 
         int promoted_byte = bb * cc; // if the result of byte multiplication exceeds byte range (-128 to 127) it will be promoted to int
+        
+        int num1 = 7;
+        int num2 = 5;
+        
+        int result = num1 / num2;
+        System.out.println("result = " + result);
+        
     }
 }
