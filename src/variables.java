@@ -35,16 +35,37 @@ class variables {
 
         num_add_sub = num_add_sub + 1;
         num_add_sub += 1;
-        num_add_sub++; // post - increment, first fetch the value and then increment
+        num_add_sub++; // post - increment, one fetch the value and then increment
         ++num_add_sub; // pre - increment
 
         // same principle for subtraction
         num_add_sub = num_add_sub - 1;
         num_add_sub -= 1;
-        num_add_sub--; // post - increment, be careful because here the value will be fetched and stored first and then incremented
-        --num_add_sub; // pre - increment, here the subtraction is done first and then the value is fetched
+        num_add_sub--; // post - increment, be careful because here the value will be fetched and stored one and then incremented
+        --num_add_sub; // pre - increment, here the subtraction is done one and then the value is fetched
+    }
 
+    public void comparison_and_or() {
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        int four = 4;
 
+        // result will only be true if both expressions are true
+        // true and false will return false and vice versa
+        boolean result_and_false_true = one > two && three < four;
+        System.out.printf("First false AND second true will return %b \n", result_and_false_true);
+
+        boolean result_and_true_false = three < four && one < two;
+        System.out.printf("First true AND second false will return %b \n", result_and_true_false);
+
+        // If one is true, the overall result will be true
+        // only when both are false, the result be false
+        boolean result_or_false_true = three > four || one > two; // false
+        System.out.printf("First false OR second true will return %b \n", result_or_false_true);
+
+        boolean result_or_true_false = three < four || one > two; // true
+        System.out.printf("First false OR second true will return %b \n", result_or_true_false);
 
     }
 }
