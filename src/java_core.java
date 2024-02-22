@@ -66,6 +66,6 @@ class variables {
 
         boolean result_or_true_false = three < four || one > two; // true
         System.out.printf("First false OR second true will return %b \n", result_or_true_false);
-
     }
+
 }
