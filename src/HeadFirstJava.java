@@ -1,3 +1,5 @@
+import com.sun.source.tree.Tree;
+
 // class declaration, always needed
 public class HeadFirstJava {
     // hello weird branch
@@ -6,7 +8,10 @@ public class HeadFirstJava {
         Test ts = new Test();
 
         java_core vars = new java_core();
-        vars.say_and_say_inside(5, 1);
+        vars.cnt_num_dwn();
+
+        code_wars cw = new code_wars();
+
 
     }
 }

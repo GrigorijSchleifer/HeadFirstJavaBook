@@ -1,5 +1,6 @@
-class java_core {
+import java.util.Scanner;
 
+class java_core {
 
     public void casting_variables() {
         // casting vs conversion
@@ -42,7 +43,6 @@ class java_core {
         num_add_sub--; // post - increment, be careful because here the value will be fetched and stored one and then incremented
         --num_add_sub; // pre - increment, here the subtraction is done one and then the value is fetched
     }
-
     public void comparison_and_or() {
         int one = 1;
         int two = 2;
@@ -65,7 +65,6 @@ class java_core {
         boolean result_or_true_false = three < four || one > two; // true
         System.out.printf("First false OR second true will return %b \n", result_or_true_false);
     }
-
     public void if_else_short() {
         int result = 9;
 
@@ -80,7 +79,6 @@ class java_core {
 
         System.out.println(result);
     }
-
     public void first_switch(int day) {
         switch (day) {
             case 1:
@@ -108,14 +106,12 @@ class java_core {
                 System.out.println("Unknown day");
         }
     }
-
     public void repeat_sentence (int how_many_repetitions) {
         while (how_many_repetitions > 0) {
             System.out.printf("%d: Writing \n", how_many_repetitions);
             how_many_repetitions--;
         }
     }
-
     public void loop_increment() {
         int i = 0;
 
@@ -124,24 +120,33 @@ class java_core {
             i++;
         }
     }
-
     // say something n times and print n times under the first phrase
-    public void say_and_say_inside(int main_phrase, int phrase_inside_main_phrase) {
-        int first_loop_int = 0;
-        int second_loop_int = 0;
+    public void say_and_say_inside(int len_main_phrase, int len_ins_phrase) {
+        int fst_lp_len = 0;
+        int scnd_lp_len = 0;
 
-        while (first_loop_int < main_phrase) {
-            System.out.printf("%d: Hi\n", first_loop_int);
+        while (fst_lp_len < len_main_phrase)
+        {
+            System.out.printf("%d: Hi\n", fst_lp_len + 1);
+            fst_lp_len++;
 
-            first_loop_int++;
             // incrementing the number to reach the desired count of repetitions
-            while (second_loop_int < phrase_inside_main_phrase) {
-                System.out.printf("\t%d Whaaatsuup\n", second_loop_int);
+            while (scnd_lp_len < len_ins_phrase)
+            {
+                System.out.printf("\t%d Whaaatsuup\n", scnd_lp_len + 1);
                 // incrementing the number to reach the desired count of repetitions inside the first loop
-                second_loop_int++;
+                scnd_lp_len++;
             }
             // needs to be reset, otherwise it will only print once inside the first loop
-            second_loop_int = 0;
+            scnd_lp_len = 0;
         }
+    }
+    public void cnt_num_dwn() {
+        int num = new Scanner(System.in).nextInt();
+
+        do {
+            System.out.printf("%d\n", num);
+            num--;
+        } while (num > 0);
     }
 }
