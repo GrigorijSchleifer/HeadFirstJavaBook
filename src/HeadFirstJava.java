@@ -5,14 +5,9 @@ public class HeadFirstJava {
         SharpenYourPens syp = new SharpenYourPens();
         Test ts = new Test();
 
-        variables vars = new variables();
-        vars.casting_variables();
+        java_core vars = new java_core();
+        vars.say_and_say_inside(5, 1);
 
-        ts.post_pre();
-        int x = 18;
-
-        if(true)
-            System.out.println("Hello");
     }
 }
 

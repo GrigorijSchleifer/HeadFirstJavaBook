@@ -1,6 +1,4 @@
-import java.sql.SQLOutput;
-
-class variables {
+class java_core {
 
 
     public void casting_variables() {
@@ -68,4 +66,82 @@ class variables {
         System.out.printf("First false OR second true will return %b \n", result_or_true_false);
     }
 
+    public void if_else_short() {
+        int result = 9;
+
+//        if (result < 10) {
+//            result = 20;
+//        } else {
+//            result = 100;
+//        }
+
+        // or we can use a shorter statement
+        result = result < 10 ? 330: 100;
+
+        System.out.println(result);
+    }
+
+    public void first_switch(int day) {
+        switch (day) {
+            case 1:
+                System.out.println("monday");
+                break;
+            case 2:
+                System.out.println("tuesday");
+                break;
+            case 3:
+                System.out.println("wednesday");
+                break;
+            case 4:
+                System.out.println("thursday");
+                break;
+            case 5:
+                System.out.println("friday");
+                break;
+            case 6:
+                System.out.println("saturday");
+                break;
+            case 7:
+                System.out.println("sunday");
+                break;
+            default:
+                System.out.println("Unknown day");
+        }
+    }
+
+    public void repeat_sentence (int how_many_repetitions) {
+        while (how_many_repetitions > 0) {
+            System.out.printf("%d: Writing \n", how_many_repetitions);
+            how_many_repetitions--;
+        }
+    }
+
+    public void loop_increment() {
+        int i = 0;
+
+        while (true) {
+            System.out.println("Hi " + i);
+            i++;
+        }
+    }
+
+    // say something n times and print n times under the first phrase
+    public void say_and_say_inside(int main_phrase, int phrase_inside_main_phrase) {
+        int first_loop_int = 0;
+        int second_loop_int = 0;
+
+        while (first_loop_int < main_phrase) {
+            System.out.printf("%d: Hi\n", first_loop_int);
+
+            first_loop_int++;
+            // incrementing the number to reach the desired count of repetitions
+            while (second_loop_int < phrase_inside_main_phrase) {
+                System.out.printf("\t%d Whaaatsuup\n", second_loop_int);
+                // incrementing the number to reach the desired count of repetitions inside the first loop
+                second_loop_int++;
+            }
+            // needs to be reset, otherwise it will only print once inside the first loop
+            second_loop_int = 0;
+        }
+    }
 }
