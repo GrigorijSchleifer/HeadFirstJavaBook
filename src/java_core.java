@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.SimpleTimeZone;
 
 class java_core {
 
@@ -141,6 +142,7 @@ class java_core {
             scnd_lp_len = 0;
         }
     }
+    // do while loop
     public void cnt_num_dwn() {
         int num = new Scanner(System.in).nextInt();
 
@@ -149,4 +151,58 @@ class java_core {
             num--;
         } while (num > 0);
     }
+    // for loop
+    public void for_loop() {
+        for (int k = 0; k < 10; k++) {
+            System.out.println("k = " + k);
+        }
+    }
+    public void nested_for_loop() {
+        String[] days = {"Mo", "Tue", "Wed", "Thur", "Fr", "Sat", "Sun"};
+
+        for (int day = 0, day_number = 0; day < days.length; day++, day_number++) {
+            System.out.printf("day %d is %s\n ", day_number + 1, days[day]);
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
