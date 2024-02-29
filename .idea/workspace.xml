@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday TEST">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HeadFirstJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadFirstJava.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,10 @@
       <workItem from="1708172196652" duration="941000" />
       <workItem from="1708204637989" duration="41000" />
       <workItem from="1708234540932" duration="2519000" />
-      <workItem from="1708599250889" duration="1652000" />
+      <workItem from="1708599250889" duration="1830000" />
+      <workItem from="1708605523750" duration="17215000" />
+      <workItem from="1708979855473" duration="4321000" />
+      <workItem from="1709236259496" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="Hello LOVE, it's been a long time since we first met ...">
       <option name="closed" value="true" />
@@ -251,7 +253,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708550977170</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="and or">
+      <option name="closed" value="true" />
+      <created>1708604021927</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1708604021927</updated>
+    </task>
+    <task id="LOCAL-00017" summary="first switch">
+      <option name="closed" value="true" />
+      <created>1708608311385</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1708608311385</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +345,9 @@
     <MESSAGE value="Good morning HUMA, phrasomat" />
     <MESSAGE value="README added for the repo" />
     <MESSAGE value="addition, subtraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="addition, subtraction" />
+    <MESSAGE value="and or" />
+    <MESSAGE value="first switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="first switch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

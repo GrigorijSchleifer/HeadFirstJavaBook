@@ -157,6 +157,7 @@ class java_core {
             System.out.println("k = " + k);
         }
     }
+
     public void nested_for_loop() {
         String[] days = {"Mo", "Tue", "Wed", "Thur", "Fr", "Sat", "Sun"};
 
