@@ -165,7 +165,44 @@ class java_core {
             System.out.printf("day %d is %s\n ", day_number + 1, days[day]);
         }
     }
+
+    // print the week days and number of pull ups, increasing every day
+    public static void exercise_plan() {
+        String[] week_days = {"Mo", "Tue", "Wed", "Thur", "Fr", "Sat", "Sun"};
+
+        for (int dayIndex = 0, pullUpCount = 1; dayIndex < week_days.length; dayIndex++, pullUpCount++) {
+            if (pullUpCount == 1) {
+                System.out.printf("On %s you did %d pull up\n", week_days[dayIndex], pullUpCount);
+            } else {
+                System.out.printf("On %s you did %d pull ups\n", week_days[dayIndex], pullUpCount);
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

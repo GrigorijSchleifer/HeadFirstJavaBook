@@ -10,7 +10,7 @@ public class HeadFirstJava {
         code_wars cw = new code_wars();
         java_core jc = new java_core();
 
-        System.out.println(Arrays.toString(code_wars.reverse_number(1287746349)));
+        java_core.exercise_plan();
     }
 }
 
