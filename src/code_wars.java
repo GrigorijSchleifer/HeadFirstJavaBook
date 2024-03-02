@@ -64,6 +64,25 @@ public class code_wars {
         }
         return nextLight;
     }
+
+
+    public static String nextLight(String current) {
+        switch (current) {
+            case "red": return "green";
+            case "yellow": return "red";
+            case "green": return "yellow";
+            default: throw new IllegalArgumentException();
+        }
+    }
+
+    public static int[] reverse(int n) {
+        int[] array_to_fill = new int[n];
+        // no curly braces needed if the loop contains only one line
+        for (int k = n, j = 0; k > 0; k--, j++)
+            array_to_fill[j] = k;
+
+        return array_to_fill;
+    }
 }
 
 

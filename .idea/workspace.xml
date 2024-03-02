@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday TEST">
+    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="updateLight codewars kata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HeadFirstJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadFirstJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/code_wars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code_wars.java" afterDir="false" />
@@ -30,12 +30,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GrigorijSchleifer"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GrigorijSchleifer&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -270,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708608311385</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updateLight codewars kata">
+      <option name="closed" value="true" />
+      <created>1709396619794</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1709396619794</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +356,8 @@
     <MESSAGE value="addition, subtraction" />
     <MESSAGE value="and or" />
     <MESSAGE value="first switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="first switch" />
+    <MESSAGE value="updateLight codewars kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="updateLight codewars kata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
