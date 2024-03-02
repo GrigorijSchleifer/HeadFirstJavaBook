@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="Happy birthday TEST">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HeadFirstJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadFirstJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code_wars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code_wars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +30,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SWAP_SIDES_IN_COMPARE_BRANCHES" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-    &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;GrigorijSchleifer&quot;
-    }
-    }</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "GrigorijSchleifer"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="fe374b2a-af31-404f-b4ff-21e4e1281e08" />
-        <option name="url" value="https://github.com/GrigorijSchleifer/JavaWars.git" />
+        <option name="accountId" value="e4b967ff-7af1-4abb-9a27-ca73bc399f98" />
+        <option name="url" value="https://github.com/GrigorijSchleifer/HeadFirstJavaBook.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -100,7 +101,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-396cc1b2" />
+        <option value="jdk-11.0.22-corretto-11.0.22-3183f394aec4-fdae186d" />
       </set>
     </attachedChunks>
   </component>

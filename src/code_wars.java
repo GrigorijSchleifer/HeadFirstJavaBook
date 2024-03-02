@@ -36,6 +36,34 @@ public class code_wars {
         }
         return digits;
     }
+
+    public static int sumUpNumber(int n) {
+        int numberToSum = 0;
+        for (int increasingNumber = 0; increasingNumber <= n; increasingNumber++) {
+            numberToSum = numberToSum + increasingNumber;
+        }
+        return numberToSum;
+    }
+
+
+    public static String updateLight(String current) {
+        String[] trafficLights = {"green", "yellow", "red"};
+        String nextLight = null;
+
+        int index = Arrays.binarySearch(trafficLights, current);
+
+        switch (index) {
+            case 0:
+                nextLight = trafficLights[index + 1];
+                break;
+            case 1:
+                nextLight = trafficLights[index + 1];
+                break;
+            default:
+                nextLight = trafficLights[0];
+        }
+        return nextLight;
+    }
 }
 
 
