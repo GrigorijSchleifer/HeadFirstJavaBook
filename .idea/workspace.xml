@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="updateLight codewars kata">
+    <list default="true" id="bee7ac43-d5ce-427c-ae55-b8879e18e4fe" name="Changes" comment="reverse kata">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HeadFirstJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HeadFirstJava.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/code_wars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code_wars.java" afterDir="false" />
@@ -278,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709396619794</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="reverse kata">
+      <option name="closed" value="true" />
+      <created>1709415537541</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1709415537541</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +365,8 @@
     <MESSAGE value="and or" />
     <MESSAGE value="first switch" />
     <MESSAGE value="updateLight codewars kata" />
-    <option name="LAST_COMMIT_MESSAGE" value="updateLight codewars kata" />
+    <MESSAGE value="reverse kata" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse kata" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

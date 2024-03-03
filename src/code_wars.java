@@ -83,6 +83,27 @@ public class code_wars {
 
         return array_to_fill;
     }
+
+    public static int[] humanYearsCatYearsDogYears(final int humanYears) {
+        int catYears = 0;
+        int dogYears = 0;
+
+        // Cat: 15 (first year), +9 (second year), +4 (each next year)
+        // Dog: 15 (first year), +9 (second year, +5 (each next year)
+        for (int cat = 1, dog = 1; cat <= humanYears; cat++, dog++) {
+            if (cat == 1 | dog == 1) {
+                catYears = catYears + 15;
+                dogYears = dogYears + 15;
+            } else if (cat == 2 | dog == 2) {
+                catYears = catYears + 9;
+                dogYears = dogYears + 9;
+            } else {
+                catYears = catYears + 4;
+                dogYears = dogYears + 5;
+            }
+        }
+        return new int[] {humanYears, catYears, dogYears};
+    }
 }
 
 
