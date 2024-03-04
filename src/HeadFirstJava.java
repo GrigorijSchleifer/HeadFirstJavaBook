@@ -11,6 +11,7 @@ public class HeadFirstJava {
         java_core jc = new java_core();
 
         // commit without a message?
+        // check the difference!
         System.out.println(Arrays.toString(code_wars.humanYearsCatYearsDogYears(10)));
     }
 }
