@@ -1,5 +1,6 @@
+import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
-import java.util.SimpleTimeZone;
 
 class java_core {
 
@@ -177,6 +178,49 @@ class java_core {
                 System.out.printf("On %s you did %d pull ups\n", week_days[dayIndex], pullUpCount);
             }
         }
+    }
+
+    public static Object[][] dayWeekMonth() {
+        // month, date, day
+        Object[][] calendarObject = new Object[12][];
+
+        String[] monthArray = {"Jan", "Feb", "March", "April", "Mai", "June", "July", "Aug", "Sep", "Okt", "Nov", "Dec"};
+//      String[] weekDay = {"Monday","Tuesday","Wednesday","Thursday","Friday", "Saturday", "Sunday"};
+
+        int[] monthLength = {31,29,31,30,31,30,31,31,30,31,30,31};
+
+        for (int month = 0; month < 12; month++) {
+            calendarObject[month][0] = monthArray[month];
+            // System.out.println(calendarObject[month][0]);
+
+            for (int date = 0; date < monthLength[month]; date++) {
+                calendarObject[month][date + 1] = date + 1;
+                // System.out.println(calendarObject[month][date]);
+                // System.out.println(calendarObject[month][date]);
+            }
+        }
+        return calendarObject;
+    }
+
+    public static Object[][] dayWeekMonthAnthro() {
+        // jagged array (inner array can have different
+        Object[][] calendarObject = new Object[12][];
+        String[] monthArray = {"Jan", "Feb", "March", "April", "Mai", "June", "July", "Aug", "Sep", "Okt", "Nov", "Dec"};
+        int[] monthLength = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+
+        for (int month = 0; month < 12; month++) {
+            // Initialize inner array
+            calendarObject[month] = new Object[monthLength[month] + 1];
+            calendarObject[month][0] = monthArray[month];
+
+            for (int date = 0; date < monthLength[month]; date++) {
+                calendarObject[month][date + 1] = date + 1;
+            }
+        }
+        for (int i = 0; i < calendarObject.length; i++) {
+            System.out.printf("Row %d and Value %s \n", i, Arrays.toString(calendarObject[i]));
+        }
+        return calendarObject;
     }
 }
 
