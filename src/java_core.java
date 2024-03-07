@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Objects;
 import java.util.Scanner;
 
 class java_core {
@@ -222,6 +221,26 @@ class java_core {
         }
         return calendarObject;
     }
+
+
+    public static int[][] testMultidimArray() {
+        int[][] mdArr = new int[3][4];
+        for (int outerArray = 0; outerArray < 3 ; outerArray++) {
+            mdArr[outerArray][0] = outerArray;
+            for (int inner = 0; inner < 4; inner++) {
+                mdArr[outerArray][inner] = inner;
+            }
+        }
+        for (int outer = 0; outer < 3; outer++) {
+            for (int inner = 0; inner < 4; inner++) {
+                System.out.print(mdArr[outer][inner] + " ");
+            }
+        }
+
+        return mdArr;
+    }
+
+
 }
 
 
