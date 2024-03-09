@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class code_wars {
     public void cnvrt_bool_str(boolean b) {
@@ -108,6 +109,14 @@ public class code_wars {
     public static boolean isLove(final int flower1, final int flower2) {
         // return (flower1 + flower2) % 2 != 0;
         return ((flower1 + flower2) % 2 == 0) ? false: true;
+    }
+
+    public static String greet(String name) {
+        // Scanner scanner = new Scanner(System.in);
+        return "Hello " + name + "how are you doing today?";
+    }
+    public int cockroachSpeed(double x){
+        return (int) Math.floor((x * 100000) / 3600);
     }
 
 }

@@ -223,14 +223,15 @@ class java_core {
     }
 
 
-    public static int[][] testMultidimArray() {
+    public static int[][] testMultiDimArray() {
         int[][] mdArr = new int[3][4];
+
         for (int outerArray = 0; outerArray < 3 ; outerArray++) {
-            mdArr[outerArray][0] = outerArray;
             for (int inner = 0; inner < 4; inner++) {
-                mdArr[outerArray][inner] = inner;
+                mdArr[outerArray][inner] = (int) (Math.random() * 100);
             }
         }
+
         for (int outer = 0; outer < 3; outer++) {
             for (int inner = 0; inner < 4; inner++) {
                 System.out.print(mdArr[outer][inner] + " ");
@@ -239,8 +240,6 @@ class java_core {
 
         return mdArr;
     }
-
-
 }
 
 
