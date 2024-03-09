@@ -10,7 +10,7 @@ public class HeadFirstJava {
         code_wars cw = new code_wars();
         java_core jc = new java_core();
 
-        java_core.testMultiDimArray();
+        System.out.println(Arrays.deepToString(java_core.randomSizedMultiJaggedArray()));
 
     }
 }

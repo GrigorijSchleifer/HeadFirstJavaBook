@@ -223,7 +223,7 @@ class java_core {
     }
 
 
-    public static int[][] testMultiDimArray() {
+    public static int[][] multiDimArrayLong() {
         int[][] mdArr = new int[3][4];
 
         for (int outerArray = 0; outerArray < 3 ; outerArray++) {
@@ -231,14 +231,39 @@ class java_core {
                 mdArr[outerArray][inner] = (int) (Math.random() * 100);
             }
         }
-
         for (int outer = 0; outer < 3; outer++) {
             for (int inner = 0; inner < 4; inner++) {
                 System.out.print(mdArr[outer][inner] + " ");
             }
+            System.out.println();
         }
-
         return mdArr;
+    }
+
+    public static int[][] multiDimArrayShort() {
+        int[][] mdArr = new int[3][4];
+        for (int outerArray = 0, innerArray = 0; outerArray < 3 | innerArray < 4; outerArray++, innerArray++) {
+            mdArr[outerArray][innerArray] = (int) (Math.random() * 100);
+        }
+        return mdArr;
+    }
+
+    public static int[][] randomSizedMultiJaggedArray() {
+        // jagged array (inner array can have different lengths)
+        // fill the inner array with random numbers
+        // loop through the outer array and print the inner array
+
+        // create the outer array
+        int[][] jaggedArray = new int[3][];
+
+        // loop through the outer array and fill the inner array with random numbers
+        for (int outer = 0; outer < jaggedArray.length; outer++) {
+            jaggedArray[outer] = new int[(int) (Math.random() * 10)];
+            for (int inner = 0; inner < jaggedArray[outer].length; inner++) {
+                jaggedArray[outer][inner] = (int) (Math.random() * 10);
+            }
+        }
+        return jaggedArray;
     }
 }
 
