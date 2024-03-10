@@ -119,6 +119,22 @@ public class code_wars {
         return (int) Math.floor((x * 100000) / 3600);
     }
 
+    public static String howMuchILoveYou(int nb_petals) {
+        // if nb_petals is > 7 start from 0
+
+        String[] petal_words = {"I love you",
+                "a little",
+                "a lot",
+                "passionately",
+                "madly",
+                "not at all"};
+        if (nb_petals > petal_words.length) {
+            System.out.printf("petals_words length: %d, nb_petals: %d, and modulo: %d\n", petal_words.length , nb_petals, (petal_words.length % nb_petals)-1);
+            return petal_words[(petal_words.length % nb_petals) - 1];
+        } else {
+            return petal_words[nb_petals - 1];
+        }
+    }
 }
 
 

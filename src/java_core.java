@@ -263,6 +263,10 @@ class java_core {
                 jaggedArray[outer][inner] = (int) (Math.random() * 10);
             }
         }
+
+        for (int x = 0; x < jaggedArray.length; x++) {
+            System.out.println(Arrays.toString(jaggedArray[x]));
+        }
         return jaggedArray;
     }
 }
