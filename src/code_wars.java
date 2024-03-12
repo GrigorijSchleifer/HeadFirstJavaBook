@@ -120,21 +120,23 @@ public class code_wars {
     }
 
     public static String howMuchILoveYou(int nb_petals) {
-        // if nb_petals is > 7 start from 0
-
         String[] petal_words = {"I love you",
                 "a little",
                 "a lot",
                 "passionately",
                 "madly",
                 "not at all"};
-        if (nb_petals > petal_words.length) {
-            System.out.printf("petals_words length: %d, nb_petals: %d, and modulo: %d\n", petal_words.length , nb_petals, (petal_words.length % nb_petals)-1);
-            return petal_words[(petal_words.length % nb_petals) - 1];
+
+        // if nb_petals is > petal_words.length start from 0
+        if (petal_words.length > nb_petals | (nb_petals % petal_words.length == 0)) {
+            return petal_words[(nb_petals - 1)];
         } else {
-            return petal_words[nb_petals - 1];
+            System.out.printf("petals_words length: %d, nb_petals: %d, and modulo: %d, reverse modulo: %d\n", petal_words.length , nb_petals, ((nb_petals % petal_words.length) - 1), (petal_words.length % nb_petals));
+            // System.out.printf("reverse modulo: %d\n", (petal_words.length % nb_petals));
+            return petal_words[nb_petals % petal_words.length];
         }
     }
+
 }
 
 

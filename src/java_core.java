@@ -1,5 +1,14 @@
 import java.util.Arrays;
 import java.util.Scanner;
+class Student {
+    String name;
+    int age;
+    int id;
+}
+
+
+
+
 
 class java_core {
 
