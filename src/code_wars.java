@@ -127,16 +127,23 @@ public class code_wars {
                 "madly",
                 "not at all"};
 
-        // if nb_petals is > petal_words.length start from 0
-        if (petal_words.length > nb_petals | (nb_petals % petal_words.length == 0)) {
-            return petal_words[(nb_petals - 1)];
-        } else {
-            System.out.printf("petals_words length: %d, nb_petals: %d, and modulo: %d, reverse modulo: %d\n", petal_words.length , nb_petals, ((nb_petals % petal_words.length) - 1), (petal_words.length % nb_petals));
-            // System.out.printf("reverse modulo: %d\n", (petal_words.length % nb_petals));
-            return petal_words[nb_petals % petal_words.length];
-        }
-    }
+        System.out.printf("petals_words length: %d \n nb_petals: %d\n and modulo: %d\n reverse modulo: %d\n",
+                petal_words.length ,
+                nb_petals,
+                ((nb_petals % petal_words.length) - 1),
+                (petal_words.length % nb_petals));
 
+        String love = null;
+        
+        if (petal_words.length <= nb_petals) {
+            love = petal_words[nb_petals - 1];
+        } else if  (petal_words.length > nb_petals) {
+            love =  petal_words[(nb_petals - 1)];
+        } else if ((nb_petals % petal_words.length == 0)) {
+            love = petal_words[nb_petals % petal_words.length];
+        }
+        return love;
+    }
 }
 
 
@@ -144,7 +151,7 @@ public class code_wars {
 
 
 
-
+ 
 
 
 
