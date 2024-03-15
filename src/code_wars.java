@@ -130,25 +130,24 @@ public class code_wars {
         System.out.printf("petals_words length: %d \n nb_petals: %d\n and modulo: %d\n reverse modulo: %d\n",
                 petal_words.length ,
                 nb_petals,
-                ((nb_petals % petal_words.length) - 1),
+                ((nb_petals % petal_words.length)),
                 (petal_words.length % nb_petals));
 
         String love = null;
         
-        if (petal_words.length <= nb_petals) {
-            love = petal_words[nb_petals - 1];
-        } else if  (petal_words.length > nb_petals) {
-            love =  petal_words[(nb_petals - 1)];
-        } else if ((nb_petals % petal_words.length == 0)) {
-            love = petal_words[nb_petals % petal_words.length];
-        }
-        return love;
+    if (petal_words.length > nb_petals) {
+        System.out.println("petal_words.length > nb_petals");
+        love = petal_words[nb_petals - 1];
+    } else if ((nb_petals % petal_words.length == 0)) {
+        System.out.println("Hello nb_petals % petal_words.length == 0");
+        love = petal_words[petal_words.length - 1];
+    } else {
+        System.out.println("Hello else");
+        love =  petal_words[(nb_petals % petal_words.length) - 1];
+    }
+    return love;
     }
 }
-
-
-
-
 
 
  
